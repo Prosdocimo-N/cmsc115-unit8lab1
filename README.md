@@ -89,26 +89,26 @@ https://github.com/Prosdocimo-N/cmsc115-unit8lab1
 # Overall Reflection
 
 ## Which task was the easiest to fix? Why?
--
+- Task 1 was the easiest because the incorrect category values and boundary comparisons were visible directly in the nested conditionals.
 
 ## Which task was the most difficult? Why?
--
+- Task 3 was the most difficult because the official UMGC virtual machine was inaccessible, which prevented access to the instructor-provided Task3Test. A comparable test suite had to be reconstructed from the available assignment requirements.
 
 ## How did Git help you track your progress through the debugging process?
--
+- Git created a separate record of each stage of the debugging process. Each task could be reviewed independently, making it easier to see exactly what changed and when.
 
 ## Why is it important to make small, frequent commits when debugging code?
--
+- Small commits isolate individual logical changes. If a change introduces a problem, the commit history makes it easier to identify the responsible change and compare it with an earlier working state.
 
 ## What did you learn about using JUnit tests to guide debugging?
--
+- JUnit tests provided expected outcomes that made logical errors easier to locate. Running tests before and after each change provided a clear way to determine whether the fix produced the intended behavior.
 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
--
+- I verified that the reconstructed Task1Test, Task2Test, and Task3Test suites passed, completed the README reflection sections, reviewed the GitHub commit history, and documented the UMGC virtual machine access failure and the use of an AI language model to reconstruct comparable JUnit tests.
 
 ## Why is it useful to document your work after completing a programming task?
--
+- Documentation records what was changed, why decisions were made, and how problems were resolved. This makes the project easier to review, understand, and maintain later.

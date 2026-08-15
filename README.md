@@ -21,36 +21,36 @@
 > they should supersede these reconstructed tests for final verification.
 
 ## Student Name
-Enter your name here.
+Nicholas Prosdocimo
 
 ## GitHub Repository URL
-Paste your GitHub repository URL here.
+https://github.com/Prosdocimo-N/cmsc115-unit8lab1
 
 ---
 
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- I included the initial BuggyProgram starter code, the reconstructed JUnit test files for Tasks 1 through 3, the Maven project configuration, the README reflection file, and the reconstruction notice.
 
 ## What was the purpose of this commit?
--
+- The purpose of this commit was to create a baseline version of the project before making any debugging changes. This provides a clean starting point in Git so later fixes can be compared against the original starter code.
 
 ---
 
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
--
+- The tests for the Exceeds and Meets classifications, including the boundary-value tests, were failing.
 
 ## What was the issue in the code?
--
+- The Exceeds and Meets return values were reversed, and the comparisons used greater-than instead of greater-than-or-equal-to.
 
 ## What change did you make to fix it?
--
+- I changed scores of 90 or greater to return "Exceeds", scores of 80 through 89 to return "Meets", and lower scores to return "Does Not Meet".
 
 ## How did the tests help guide your fix?
--
+- The tests showed the difference between the expected and actual classifications and helped identify both the incorrect return values and boundary conditions.
 
 ---
 

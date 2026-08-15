@@ -73,16 +73,16 @@ https://github.com/Prosdocimo-N/cmsc115-unit8lab1
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+- The reconstructed test for a descending range was failing, while the normal ascending-range tests passed.
 
 ## What was the issue in the code?
--
+- The original method only iterated upward. When start was greater than end, the loop never executed.
 
 ## What change did you make to fix it?
--
+- I added separate logic for ascending and descending ranges so that the method sums inclusively in either direction.
 
 ## How did the tests help guide your fix?
--
+- The official UMGC virtual machine and instructor Task3Test file were inaccessible despite repeated remediation attempts. An AI language model was therefore used to create a comparable test suite based on the available assignment instructions. The reconstructed tests demonstrated that the original method did not handle descending ranges.
 
 ---
 

@@ -57,16 +57,16 @@ https://github.com/Prosdocimo-N/cmsc115-unit8lab1
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+- The tests that calculated sums from arrays were failing, and the loop could attempt to access an index outside the array.
 
 ## What was the issue in the code?
--
+- The sum variable started at 1 instead of 0, and the loop condition used i <= values.length instead of i < values.length.
 
 ## What change did you make to fix it?
--
+- I initialized sum to 0 and changed the loop condition so the loop stops before values.length.
 
 ## How did the tests help guide your fix?
--
+- The tests exposed both the incorrect calculated totals and the array-boundary problem, which made the two errors easier to identify.
 
 ---
 
